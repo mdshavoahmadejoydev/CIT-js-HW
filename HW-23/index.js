@@ -27,7 +27,7 @@ if (havePc == "Yes") {
 // homework (create a mark sheet conditions use by "else if")
 
 // let marks = '80';
-prompt("enter your mark....");
+let marks = prompt("enter your mark....");
 if (marks == '') {
   console.log("Opps! Marks can never be string....");
 }else if (marks < 0) {
